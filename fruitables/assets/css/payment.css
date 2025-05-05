@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header img {
+    height: 40px;
+    margin-right: 25px; /* Cách logo ra khỏi menu */
+}
+
+.header nav a {
+    margin: 0 15px; /* Giảm khoảng cách giữa các mục menu để cân đối */
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Note section styling */
+.note {
+    width: 750px;
+    height: 100px;
+    background-color: #A9E6F0;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* Container custom styling */
+.container-custom {
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section title styling */
+.section-title {
+    color: #333;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Information sections styling */
+.transfer-info, .summary, .qr-section {
+    background-color: #f0f8ff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.transfer-info, .qr-section, .summary {
+    height: 100%;
+}
+
+.qr-section img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Cancel button styling */
+.cancel-button {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #5bc0de;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.cancel-button:hover {
+    background-color: #31b0d5;
+}
